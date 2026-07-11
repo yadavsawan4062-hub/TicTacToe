@@ -1,46 +1,57 @@
 # 🎮 Tic Tac Toe
 
-A simple and responsive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project allows two players to play the classic Tic Tac Toe game with an interactive and user-friendly interface.
+A modern and responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**. This project allows two players to enjoy the classic Tic Tac Toe game with a clean, interactive, and user-friendly interface. It includes winner detection, draw detection, reset functionality, and a responsive design for a smooth gaming experience.
+
+---
 
 ## 🚀 Live Demo
 
-https://yadavsawan4062-hub.github.io/TicTacToe/
+- **Vercel:** https://tic-tac-toe-two-lilac-84.vercel.app/
+- **GitHub Pages:** https://yadavsawan4062-hub.github.io/TicTacToe/
+
+---
 
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
 
-![Home Screen](./screenshot1.png)
+![Home Screen](assets/home-screen.png)
 
 ### ❌⭕ Gameplay
 
-![Gameplay](./screenshot2.png)
+![Gameplay](assets/gameplay.png)
 
 ### 🏆 Winner Announcement
 
-![Winner Announcement](./screenshot3.png)
+![Winner Announcement](assets/winner.png)
 
 ### 🔄 New Game / Reset
 
-![New Game](./screenshot4.png)
+![New Game](assets/new-game.png)
+
+---
 
 ## ✨ Features
 
-* Two Player Gameplay
-* Interactive Game Board
-* Winner Detection
-* Draw Game Detection
-* New Game Button
-* Reset Game Option
-* Responsive User Interface
-* Smooth User Experience
-* Beginner-Friendly JavaScript Project
+- 🎮 Two Player Gameplay
+- 🏆 Automatic Winner Detection
+- 🤝 Draw Game Detection
+- 🔄 New Game Button
+- ♻️ Reset Game Option
+- 📱 Fully Responsive Design
+- ⚡ Smooth User Experience
+- 🎨 Modern UI with Attractive Background
+- 💻 Beginner-Friendly JavaScript Project
+
+---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+---
 
 ## 📂 Project Structure
 
@@ -51,8 +62,14 @@ TicTacToe/
 ├── style.css
 ├── script.js
 └── assets/
-    └── gradient-bg.jpg
+    ├── gradient-bg.jpg
+    ├── home-screen.png
+    ├── gameplay.png
+    ├── winner.png
+    └── new-game.png
 ```
+
+---
 
 ## 💻 How to Run
 
@@ -62,16 +79,35 @@ TicTacToe/
 git clone https://github.com/yadavsawan4062-hub/TicTacToe.git
 ```
 
-2. Open the project folder
+2. Navigate to the project folder
 
 ```bash
 cd TicTacToe
 ```
 
-3. Open `index.html` in your browser
+3. Open `index.html` in your preferred web browser.
+
+---
+
+## 🌟 Future Improvements
+
+- 🤖 Single Player Mode (AI)
+- 🌙 Dark / Light Theme
+- 🔊 Sound Effects
+- 📊 Scoreboard
+- 🌐 Online Multiplayer
+
+---
 
 ## 👨‍💻 Author
 
 **Sawan Yadav**
 
-GitHub: https://github.com/yadavsawan4062-hub
+- **GitHub:** https://github.com/yadavsawan4062-hub
+- **Live Demo:** https://tic-tac-toe-two-lilac-84.vercel.app/
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to **⭐ Star** the repository on GitHub.
