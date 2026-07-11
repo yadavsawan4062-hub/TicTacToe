@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.wrapper {
+    width: 100bvw;
+    height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        url("./assets/gradient-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+        background-repeat: no-repeat;
+    overflow: hidden;
+
+    display: grid;
+    place-items: center;
+
+}
+
+.game-info {
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+
+    padding:14px 40px;
+
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.tic-tac-toe {
+    width: 90%;
+    max-width: 20rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    aspect-ratio: 1/1;
+    backdrop-filter:blur(18px);
+    box-shadow:
+    0 15px 45px rgba(0,0,0,.35);
+
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:.25s;
+    font-size:3.5rem;
+    font-weight:700;
+}
+
+.box:hover{
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.box1,
+.box2,
+.box4,
+.box5 {
+border-right:2px solid rgba(255,255,255,.75);
+    border-bottom:2px solid rgba(255,255,255,.75);
+}
+
+.box3,
+.box6 {
+    border-bottom:2px solid rgba(255,255,255,.75);
+}
+
+.box7 , .box8{
+       border-right:2px solid rgba(255,255,255,.75);
+}
+
+.btn{
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: white;
+    cursor: pointer;
+
+    padding: 14px 35px;
+    border-radius: 16px;
+
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,.18);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+
+    display: none;
+
+    transition: background .3s ease, filter .3s ease;
+}
+
+.btn.active{
+    display: flex;
+}
+
+.btn:hover{
+    filter: brightness(1.2);
+}
+
+.win{
+
+    background:rgba(255,215,0,.25);
+
+    box-shadow:0 0 20px rgba(255,215,0,.5);
+
+}
+
+.wrapper{
+
+    animation:bgMove 15s ease infinite;
+
+}
+
+@keyframes bgMove{
+
+0%{
+background-position:left;
+}
+
+50%{
+background-position:center;
+}
+
+100%{
+background-position:right;
+}
+
+}
+
+.x{
+    color: #00E5FF;   
+}
+
+.o{
+    color: #FF4DA6;  
+}
