@@ -61,12 +61,13 @@ TicTacToe/
 ├── index.html
 ├── style.css
 ├── script.js
+├── home-screen.png
+├── gameplay.png
+├── winner.png
+└── new-game.png
 └── assets/
     ├── gradient-bg.jpg
-    ├── home-screen.png
-    ├── gameplay.png
-    ├── winner.png
-    └── new-game.png
+
 ```
 
 ---
