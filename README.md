@@ -15,19 +15,19 @@ A modern and responsive **Tic Tac Toe** game built using **HTML, CSS, and JavaSc
 
 ### 🏠 Home Screen
 
-![Home Screen](assets/home-screen.png)
+![Home Screen](home-screen.png)
 
 ### ❌⭕ Gameplay
 
-![Gameplay](assets/gameplay.png)
+![Gameplay](gameplay.png)
 
 ### 🏆 Winner Announcement
 
-![Winner Announcement](assets/winner.png)
+![Winner Announcement](winner.png)
 
 ### 🔄 New Game / Reset
 
-![New Game](assets/new-game.png)
+![New Game](new-game.png)
 
 ---
 
@@ -64,10 +64,10 @@ TicTacToe/
 ├── home-screen.png
 ├── gameplay.png
 ├── winner.png
-└── new-game.png
+├── new-game.png
+├── README.md
 └── assets/
-    ├── gradient-bg.jpg
-
+    └── gradient-bg.jpg
 ```
 
 ---
@@ -111,4 +111,4 @@ cd TicTacToe
 
 ## ⭐ Support
 
-If you like this project, don't forget to **⭐ Star** the repository on GitHub.
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
